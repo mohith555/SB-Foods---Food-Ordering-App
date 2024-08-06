@@ -1,0 +1,54 @@
+/* adminDashboard.css */
+
+.admin-dashboard {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:nth-of-type(1) {
+    background-color: #28a745; /* Green for approve */
+  }
+  
+  button:nth-of-type(2) {
+    background-color: #dc3545; /* Red for reject */
+  }
+  

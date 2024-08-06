@@ -1,0 +1,105 @@
+/* Disable transitions and animations */
+  
+/* Basic reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: none !important;
+    animation: none !important;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+}
+  
+/* Container for the cart items */
+/* myCart.css */
+
+/* Container for the cart items */
+.cart-container {
+    padding: 20px;
+  }
+  
+  /* List of cart items */
+  .cart-items-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Individual cart item box */
+  .cart-item-box {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Image of the cart item */
+  .cart-item-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  /* Content of the cart item */
+  .cart-item-content {
+    flex: 1;
+  }
+  
+  /* Name of the cart item */
+  .cart-item-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Details of the cart item */
+  .cart-item-details {
+    margin-bottom: 5px;
+  }
+  
+  /* Remove from cart button */
+  .remove-from-cart-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Remove button hover effect */
+  .remove-from-cart-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Summary section */
+  .cart-summary {
+    margin-top: 20px;
+  }
+  
+  /* Total amount text */
+  .cart-summary h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 80%;
+  }
+  
+  /* Proceed to payment button */
+  .proceed-to-payment-button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80%;
+  }
+  
+  /* Proceed button hover effect */
+  .proceed-to-payment-button:hover {
+    background-color: #27ae60;
+  }
+  

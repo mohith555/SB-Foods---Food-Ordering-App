@@ -1,0 +1,38 @@
+.profile-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-info, .profile-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  .profile-info img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .profile-form button {
+    margin-right: 10px;
+  }
+  

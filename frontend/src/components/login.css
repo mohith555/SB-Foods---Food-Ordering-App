@@ -1,0 +1,88 @@
+/* General styles for the login container */
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the form */
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  .login-form input,
+  .login-form select,
+  .login-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the toggle button */
+  .login-toggle-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .login-toggle-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Animation classes */
+  .login-message-slide-left {
+    animation: slide-left 0.5s forwards;
+  }
+  
+  .login-message-slide-right {
+    animation: slide-right 0.5s forwards;
+  }
+  
+  .login-form-slide-left {
+    animation: slide-left 0.5s forwards;
+  }
+  
+  .login-form-slide-right {
+    animation: slide-right 0.5s forwards;
+  }
+  
+  @keyframes slide-left {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slide-right {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  

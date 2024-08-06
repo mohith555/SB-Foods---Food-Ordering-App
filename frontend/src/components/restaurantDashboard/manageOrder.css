@@ -1,0 +1,57 @@
+/* manageOrders.css */
+.manage-orders-container {
+    padding: 20px;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-box {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .order-box h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .order-box p {
+    margin: 5px 0;
+  }
+  
+  .order-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .order-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-item img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .order-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-actions {
+    margin-top: 10px;
+  }
+  .order-actions button {
+    margin-right: 10px;
+  }
+  

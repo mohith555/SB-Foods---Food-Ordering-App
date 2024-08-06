@@ -1,0 +1,109 @@
+/* Disable transitions and animations */
+  
+/* Basic reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: none !important;
+    animation: none !important;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+}
+  
+/* Container for the food items */
+.food-items-container {
+    padding: 20px;
+}
+  
+/* Styling for the heading */
+.food-items-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+  
+/* Container for the list of food items */
+.food-items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+/* Styling for each food item box */
+.food-item-box {
+    display: flex;
+    align-items: center;
+    flex: 1 1 calc(50% - 20px); /* Adjust size to fit two items per row with gap */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+    padding: 10px;
+}
+  
+.food-item-box:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+  
+/* Styling for the image */
+.food-item-photo {
+    max-width: 300px; /* Increased size for the image */
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    margin-right: 30px; /* Increased space between image and content */
+}
+  
+/* Content beside the image */
+.food-item-content {
+    flex: 1; /* Allows the content to take up the remaining space */
+}
+  
+/* Styling for the food item name */
+.food-item-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+/* Styling for the food item details */
+.food-item-details {
+    margin-bottom: 10px;
+}
+  
+/* Styling for the add to cart button */
+.add-to-cart-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+.add-to-cart-button:hover {
+    background-color: #218838;
+}
+/* sweetalert2-custom.css */
+
+.swal2-input {
+   margin-left: 150px;
+    width: 100%; 
+    max-width: 200px; 
+    box-sizing: border-box; 
+  }
+  
+ 
+  .swal2-input[type="number"] {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
